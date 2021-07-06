@@ -24,6 +24,7 @@ dependencies = [
     "websockets==8.1.0",  # For use in wallet RPC and electron UI
     "click==7.1.2",  # For the CLI
     "dnspython==2.1.0",  # Query DNS seeds
+    "asyncpg==0.23.0", # PostgreSQL
 ]
 
 upnp_dependencies = [
